@@ -1,11 +1,13 @@
 :root {
     --main-color: #417394;
-    --bg-color: #FFFFFF;
     --accent-color: #0C1031;
-    --other-color: #EFF1FF;
+    --bg-color: #EFF1FF;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background: var(--bg-color);
 }
