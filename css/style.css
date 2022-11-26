@@ -1,7 +1,6 @@
-:root {
-    --main-color: #417394;
-    --accent-color: #0C1031;
-    --bg-color: #EFF1FF;
+:root{
+    --BG-COLOR: #fff;
+    --ACCENT-COLOR: #ccc;
 }
 * {
     margin: 0;
@@ -9,5 +8,17 @@
     box-sizing: border-box;
 }
 body {
-    background: var(--bg-color);
+    background: var(--BG-COLOR);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--ACCENT-COLOR)
+}
+header .logo {
+    width: 130px;
+}
+header .bx {
+    width: 130px;
 }
